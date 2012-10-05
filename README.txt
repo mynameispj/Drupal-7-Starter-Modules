@@ -1,4 +1,1 @@
-
-This directory should be used to place downloaded and custom modules
-which are common to all sites. This will allow you to more easily
-update Drupal core files.
+Drupal 7 Contrib modules that I use on almost every Drupal site I build. 
