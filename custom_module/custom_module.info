@@ -1,0 +1,3 @@
+name = JBTS Custom Module
+description = Module of various modifications and customizations for the JB Training Solutions Drupal site
+core = 7.x

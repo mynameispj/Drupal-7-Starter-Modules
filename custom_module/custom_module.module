@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Various customizations and modifications for the JBTS Drupal site.
+ */
+ 
+ 
+/**
+* Implements hook_entity_info_alter().
+*/
+function jbts_module_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['taxonomy_term'] = array(
+    'label' => t('Taxonomy Term List'),
+    'custom settings' => TRUE,
+  );
+}
